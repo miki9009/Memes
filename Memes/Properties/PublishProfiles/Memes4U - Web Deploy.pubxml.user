@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ten plik jest wykorzystywany przez proces publikowania/pakowania projektu sieci Web. Możesz dostosować zachowanie tego procesu
+ poprzez edycję tego pliku MSBuild. Aby dowiedzieć się więcej o tym działaniu, odwiedź stronę https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV6cOI/xMsEKbEW93X54STwAAAAACAAAAAAAQZgAAAAEAACAAAACI8Kl+bdduq69xTbFhc8C0qQJN0i3i/TsmQL2Q42f65wAAAAAOgAAAAAIAACAAAAD5VE4GSRtRr+c8EM0SovYGN2hvQfCw8rKk6qe4hwZPQoAAAABYfxiG3w3EKALpxdgcsMu2FTam2d++wQKGfwbRMtet8qQIsTN2eLmJY7eBRZu0BWjfOU9KCSJHGTeVL+hloLAGINFnGhTbSNm8atNMNi+KwGUNgBvNpZ5A2edLuNZddi6wEyI+VicgyG7pQNAlmoR+CylCwby80LuB1m9MdfnvB0AAAADw2DrrNP3Q7vZm/9wCUwxBD8GbyXWLsrHNVRjyNqSTrkosXuM6s7MzzTBIBuC39KG3t6PcFSk8hfiDJyfPdMrt</EncryptedPassword>
+    <_NewBackgroundProfile>False</_NewBackgroundProfile>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:memes4udbserver.database.windows.net,1433;Initial Catalog=Memes4U_db;User Id=miki9009@memes4udbserver;Password=Galicjanka1</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Memes.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:memes4udbserver.database.windows.net,1433;Initial Catalog=Memes4U_db;User Id=miki9009@memes4udbserver;Password=Galicjanka1</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

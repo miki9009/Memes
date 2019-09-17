@@ -1,0 +1,10 @@
+c:\users\miki9\documents\visual studio 2017\Projects\Memes\Memes\bin\Debug\netcoreapp1.1\Memes.deps.json
+c:\users\miki9\documents\visual studio 2017\Projects\Memes\Memes\bin\Debug\netcoreapp1.1\Memes.runtimeconfig.json
+c:\users\miki9\documents\visual studio 2017\Projects\Memes\Memes\bin\Debug\netcoreapp1.1\Memes.runtimeconfig.dev.json
+c:\users\miki9\documents\visual studio 2017\Projects\Memes\Memes\bin\Debug\netcoreapp1.1\Memes.dll
+c:\users\miki9\documents\visual studio 2017\Projects\Memes\Memes\bin\Debug\netcoreapp1.1\Memes.pdb
+c:\users\miki9\documents\visual studio 2017\Projects\Memes\Memes\obj\Debug\netcoreapp1.1\Memes.csprojResolveAssemblyReference.cache
+c:\users\miki9\documents\visual studio 2017\Projects\Memes\Memes\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+c:\users\miki9\documents\visual studio 2017\Projects\Memes\Memes\obj\Debug\netcoreapp1.1\Memes.AssemblyInfo.cs
+c:\users\miki9\documents\visual studio 2017\Projects\Memes\Memes\obj\Debug\netcoreapp1.1\Memes.dll
+c:\users\miki9\documents\visual studio 2017\Projects\Memes\Memes\obj\Debug\netcoreapp1.1\Memes.pdb

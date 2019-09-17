@@ -1,0 +1,12 @@
+C:\Users\miki9\Documents\Visual Studio 2017\Projects\Memes\Memes\bin\Release\netcoreapp1.1\Memes.deps.json
+C:\Users\miki9\Documents\Visual Studio 2017\Projects\Memes\Memes\bin\Release\netcoreapp1.1\Memes.runtimeconfig.json
+C:\Users\miki9\Documents\Visual Studio 2017\Projects\Memes\Memes\bin\Release\netcoreapp1.1\Memes.runtimeconfig.dev.json
+C:\Users\miki9\Documents\Visual Studio 2017\Projects\Memes\Memes\bin\Release\netcoreapp1.1\Memes.dll
+C:\Users\miki9\Documents\Visual Studio 2017\Projects\Memes\Memes\bin\Release\netcoreapp1.1\Memes.pdb
+C:\Users\miki9\Documents\Visual Studio 2017\Projects\Memes\Memes\obj\Release\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\miki9\Documents\Visual Studio 2017\Projects\Memes\Memes\obj\Release\netcoreapp1.1\Memes.AssemblyInfo.cs
+C:\Users\miki9\Documents\Visual Studio 2017\Projects\Memes\Memes\obj\Release\netcoreapp1.1\Memes.dll
+C:\Users\miki9\Documents\Visual Studio 2017\Projects\Memes\Memes\obj\Release\netcoreapp1.1\Memes.pdb
+C:\Users\miki9\Documents\Visual Studio 2017\Projects\Memes\Memes\obj\Release\netcoreapp1.1\Memes.csprojAssemblyReference.cache
+C:\Users\miki9\Documents\Visual Studio 2017\Projects\Memes\Memes\obj\Release\netcoreapp1.1\Memes.csproj.CoreCompileInputs.cache
+C:\Users\miki9\Documents\Visual Studio 2017\Projects\Memes\Memes\obj\Release\netcoreapp1.1\Memes.AssemblyInfoInputs.cache

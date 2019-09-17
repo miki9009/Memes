@@ -1,0 +1,68 @@
+@model Memes.Models.Meme
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<form asp-action="Edit">
+    <div class="form-horizontal">
+        <h4>Meme</h4>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="ID" />
+        <div class="form-group">
+            <label asp-for="Title" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Description" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Link" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Link" class="form-control" />
+                <span asp-validation-for="Link" class="text-danger" />
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label asp-for="User" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="User" class="form-control" />
+                <span asp-validation-for="User" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label">Typ mema:</label>
+            <div class="col-md-10">
+                <select asp-for="Type" id="Type" class="form-control">
+                    <option value="0">Obrazek</option>
+                    <option value="1">Filmik z serwera</option>
+                    <option value="2">Filmik z YouTube</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

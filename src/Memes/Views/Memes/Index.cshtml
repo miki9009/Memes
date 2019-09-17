@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Memes.Models.Meme>
+
+
+
+<p style="margin:20px 0 20px 0;">
+    <a class="Button-page" style="font-size:100%" asp-action="Create">Dodaj Mema</a>
+</p>
+<table class="table" style="background-color:#2e2e2e; color:white;">
+    <thead>
+        <tr>
+            <th>
+                Tytuł
+            </th>
+            <th>
+                Opis
+            </th>
+            <th>
+                Link
+            </th>
+
+            <th>
+                użytkownik
+            </th>
+            <th>
+                Typ
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Link)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.User)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">Edytuj</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Usuń</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
